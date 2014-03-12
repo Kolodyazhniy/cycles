@@ -22,20 +22,32 @@ public class Cycles {
 	}
 
 	
-	int nums[] = { 1, 2, 7, 4, 5, 6, 4, 9, 8, 10 };
+//	int nums[] = { 1, 2, 7, 4, 5, 6, 4, 9, 8, 10 };
+//	int sum = 0;
+//	for(int x: nums) {
+//	
+//	System.out.println(+x);
+//	sum += x;
+//	}
+//	
+//	System.out.println("Сумма равна: " + sum);
+	
+	
+	
+	
 	int sum = 0;
-	for(int x: nums) {
+	int nums[] = { 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 } ;
 	
-	System.out.println(+x);
-	sum += x;
+	
+	// использование цикла for для отображения и
+	// суммирования значений
+	for(int c : nums) {
+	System.out.println("Значение равно: " + c);
+	sum += c;
+	if(sum >= 29) break; // прекращение цикла после
+	// получения 5 значений
 	}
-	
-	System.out.println("Сумма равна: " + sum);
-	
-	
-	
-	
-	
+	System.out.println("Сумма элементов равна: " + sum);
 	
 	
 	
